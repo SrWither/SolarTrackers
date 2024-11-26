@@ -5,7 +5,7 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-  base: "/SolarTrackers"
+  base: "/SolarTrackers",
   output: "static",
   integrations: [tailwind()]
 });

@@ -1,0 +1,90 @@
+---
+import Layout from "../layout/Layout.astro";
+---
+
+<Layout title="Nosotros">
+  <section class="py-10">
+    <div class="container mx-auto px-4">
+      <h1
+        class="text-3xl font-bold text-center mb-8 text-lime-500 dark:text-lime-400"
+      >
+        Sobre Nosotros
+      </h1>
+
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 items-center gap-8 dark:text-gray-300 text-gray-700"
+      >
+        <!-- Universidad Veracruzana -->
+        <div class="text-center">
+          <a href="https://www.uv.mx/r">
+            <img
+              src="/UV.png"
+              alt="Universidad Veracruzana"
+              class="mx-auto w-96 h-auto mb-4 border-4 border-green-500"
+            />
+          </a>
+          <h3 class="text-xl font-semibold">Universidad Veracruzana</h3>
+        </div>
+
+        <!-- Facultad de Ingeniería -->
+        <div class="text-center">
+          <a href="https://www.uv.mx/fime/">
+            <img
+              src="/FIME.png"
+              alt="Facultad de Ingeniería Mecánica y Eléctrica"
+              class="mx-auto w-96 h-auto mb-4 border-4 border-green-500"
+            />
+          </a>
+          <h3 class="text-xl font-semibold">
+            Facultad de Ingeniería Mecánica y Eléctrica
+          </h3>
+        </div>
+      </div>
+
+      <p
+        class="mt-10 text-justify leading-relaxed dark:text-gray-300 text-gray-700"
+      >
+        Esta es una página informativa sobre los seguidores solares,
+        desarrollada por estudiantes de la Facultad de Ingeniería Mecánica
+        Eléctrica campus Xalapa, perteneciente a la Universidad Veracruzana. Con
+        este sitio web buscamos fomentar el uso de seguidores solares como una
+        manera de eficientar los sistemas fotovoltaicos convencionales.
+      </p>
+
+      <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Información de investigación -->
+        <div>
+          <h4
+            class="text-lg font-semibold text-lime-500 dark:text-lime-400 mb-2"
+          >
+            Investigación:
+          </h4>
+          <ul class="list-disc ml-5 dark:text-gray-300 text-gray-700">
+            <li>Acosta Rodríguez Tristan Bladimir.</li>
+            <li>Arellano Salas Miguel.</li>
+            <li>Arenas Hernández Juan Antonio.</li>
+          </ul>
+        </div>
+
+        <!-- Información de diseño -->
+        <div>
+          <h4
+            class="text-lg font-semibold text-lime-500 dark:text-lime-400 mb-2"
+          >
+            Diseño del sitio web:
+          </h4>
+          <p class="dark:text-gray-300 text-gray-700">Fadel Jachuf</p>
+          <p>
+            <a
+              href="https://github.com/SrWither"
+              target="_blank"
+              class="text-blue-600 dark:text-blue-400 underline"
+            >
+              @SrWither
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

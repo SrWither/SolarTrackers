@@ -1,0 +1,370 @@
+---
+import Layout from "../layout/Layout.astro";
+---
+
+<Layout title="Tipos">
+  <section class="py-10">
+    <div class="container mx-auto px-4">
+      <h2
+        class="text-3xl font-bold text-center mb-6 text-lime-500 dark:text-lime-400"
+      >
+        Clasificación de los seguidores
+      </h2>
+      <h3
+
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+        Existen dos tipos principales de seguidores solares disponibles en el mercado: de 
+        un solo eje y de doble eje. Los seguidores de un solo eje se pueden dividir en 
+        seguidores de eje horizontal, seguidores de eje vertical y seguidores de eje 
+        inclinado.
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+        Los seguidores solares de un solo eje producen menos energía por unidad que los 
+        seguidores de doble eje, pero requieren menos espacio para su instalación debido a 
+        las alturas de montaje reducidas. Esto ayuda a crear una huella de sistema más 
+        concentrada y un modelo más sencillo para operaciones y mantenimiento.
+      </p>
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+        Los seguidores de un solo eje que se muestran en la ilustración, se pueden dividir 
+        en dos tipos: seguidores centralizados y descentralizados. Los seguidores 
+        centralizados utilizan un solo motor para alimentar una línea de transmisión entre 
+        filas que, a su vez, moverá un segmento completo de paneles, mientras que los sistemas 
+        descentralizados solo tienen un motor por fila de seguimiento.
+      </p>
+    <div class="flex justify-center">
+        <img
+          src="/SeguidorMonoaxial.png"
+          alt="Seguidores De Un Eje"
+          class="w-[40rem] h-auto mb-6 rounded-md shadow-lg border-4 border-green-400"
+        />
+      </div>
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+        Los sistemas de seguimiento solar de doble eje tienen dos grados de rotación en el eje 
+        primario y perpendicular al mismo es el eje secundario. Estos sistemas de seguimiento 
+        se clasifican en seguidores de inclinación y de altitud azimutal y ambos tipos pueden 
+        ajustarse con la dirección del sol para captar la máxima cantidad de luz solar. 
+      </p>
+      <h2
+        class="text-3xl font-bold text-center mb-6 text-lime-500 dark:text-lime-400"
+      >
+        Tipos de Seguidores Solares
+      </h2>
+      <h3
+        class="text-2xl font-bold text-center mb-6 mt-4 text-lime-500 dark:text-lime-400"
+      >
+        Seguidores Pasivos
+      </h3>
+
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+        El modo pasivo se basa en la programación del algoritmo del movimiento del sol 
+        durante el día durante todo el año. Este modo de orientación requiere los datos 
+        de cada ubicación geográfica específica. Además, un sistema de este tipo no tiene 
+        en cuenta los diferentes fenómenos meteorológicos, como la refracción de la luz 
+        solar en las nubes altas y la reflexión de los rayos solares en la nieve. En 
+        consecuencia, estos fenómenos provocan la discordancia entre la posición y 
+        dirección real de la fuente de radiación y sus parámetros calculados. Esto reduce 
+        significativamente la eficiencia del seguidor solar.
+      </p>
+
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+       El mecanismo de rotación de un seguidor solar pasivo se basa en el uso de gases 
+       comprimidos de bajo punto de ebullición que se mueven o desplazan de este a oeste 
+       por el calor solar, que convierte el líquido en gas, haciendo que el seguidor se 
+       incline de un lado a otro. El desequilibrio creado por el movimiento del material 
+       líquido-gas crea el principio fundamental del movimiento bidireccional. Cabe señalar 
+       que diversas condiciones climáticas, como las fluctuaciones de temperatura, las ráfagas 
+       de viento y la nubosidad, afectan negativamente al rendimiento de los seguidores 
+       solares pasivos. Como resultado, se considera que tienen una eficiencia de seguimiento 
+       poco fiable. Sin embargo, proporcionan un mejor rendimiento de salida solar que las 
+       plataformas de soporte solar de ángulo fijo.
+      </p>
+
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+        Uno de los principales fabricantes de seguidores solares pasivos es
+        Zomeworks, que fabrica una serie de dispositivos de seguimiento
+        conocidos como Track Rack. Los dispositivos de seguimiento comienzan a
+        seguir al sol orientando los bastidores hacia el oeste. A medida que el
+        sol sale por el este, calienta un recipiente lleno de líquido-gas sin
+        protección del lado oeste, forzando el líquido a entrar en el recipiente
+        sombreado del lado este. A medida que el líquido se mueve a través de un
+        tubo de cobre hacia el recipiente del lado este, el rastreador gira de
+        manera que mira hacia el este.
+      </p>
+
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+        En la siguiente ilustración, se puede observar el comportamiento del
+        seguidor solar pasivo. El inciso a) representa su estado inicial o de
+        reposo y se ven sus principales partes. b) muestra cómo modifica su
+        posición original para comenzar a apuntar hacia el lado este debido al
+        amanecer. c) vuelve a desplazarse el seguidor siguiendo el los rayos del
+        amanecer del sol. d) el líquido-gas desplaza la posición del rastreador.
+        e) La posición final del rastreador después de haber completado el ciclo
+        diario.
+      </p>
+
+      <div class="flex justify-center">
+        <img
+          src="/pasivo.jpg"
+          alt="Seguidores Solares"
+          class="w-xl h-auto mb-6 rounded-md shadow-lg border-4 border-green-400"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img
+          src="/seguidorpasivpo.png"
+          alt="Seguidor Pasivo"
+          class="w-[30rem] h-auto mb-6 rounded-md shadow-lg border-4 border-green-400"
+        />
+      </div>
+      <div class="flex justify-center">
+        <img
+          src="/estructura seguidor pasivo.png"
+          alt="Estructura Seguidor Pasivo"
+          class="w-[30rem] h-auto mb-6 rounded-md shadow-lg border-4 border-green-400"
+        />
+      </div>
+      <h3
+        class="text-2xl font-bold text-center mb-6 mt-4 text-lime-500 dark:text-lime-400"
+      >
+        Seguidores Activos
+      </h3>
+
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+        El modo activo permite encontrar el punto máximo de actividad solar 
+        y orientar el panel solar hacia ese punto. Este modo es más eficiente, 
+        ya que maximiza la generación de energía solar.
+      </p>  
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+        El modo activo de orientación se utiliza en el seguidor solar desarrollado. 
+        Se basa en una placa de control, que se fija perpendicularmente al panel 
+        solar. A diferencia de los análogos, la placa se realiza sin implementación 
+        de microcontroladores. Por lo tanto, el coste de la placa de control 
+        desarrollada es generalmente menor con respecto a las placas de control de 
+        otros seguidores. Además, la placa tiene un bajo consumo de energía, por lo 
+        que la eficiencia energética mejora significativamente.
+      </p>
+      <div class="flex justify-center">
+        <img
+          src="/SeguidorSolarActivo.png"
+          alt="Seguidor Activo"
+          class="w-[30rem] h-auto mb-6 rounded-md shadow-lg border-4 border-green-400"
+        />
+      </div>
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+        La placa permite ajustar manualmente la sensibilidad de los sensores según 
+        el principio del bucle de histéresis. Cuanto menor sea la sensibilidad de 
+        los fototransistores, mayor será la diferencia necesaria en la radiación 
+        incidente sobre los fototransistores para iniciar el proceso de orientación.
+      </p>
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+        Los seguidores activos utilizan motores y trenes de engranajes para controlar 
+        los movimientos de los ejes mediante temporizadores controlados programables, 
+        controladores lógicos programables y controladores basados en microprocesadores 
+        o dispositivos de control basados en posicionamiento global que proporcionan 
+        datos precisos sobre la potencia de accionamiento a una variedad de mecanismos 
+        de movimiento electromecánicos. Los programas dentro de los sistemas 
+        computacionales de control utilizan una combinación de algoritmos de movimiento 
+        solar que ajustan el movimiento del eje de rotación en orientaciones que 
+        mantienen constantemente un ángulo de coseno mínimo durante todas las estaciones. 
+      </p>
+      <h3
+        class="text-2xl font-bold text-center mb-6 mt-4 text-lime-500 dark:text-lime-400"
+      >
+        Seguidores de un solo eje horizontal
+      </h3>
+
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+        Los seguidores horizontales están diseñados para orientar un eje
+        horizontal mediante mecanismos pasivos o activos. Básicamente, un eje
+        tubular largo está soportado por varios cojinetes que están fijados a
+        algún tipo de marcos de estructura de pilonos de madera, metálicos u
+        hormigón. Los ejes tubulares se instalan en orientación norte-sur,
+        mientras que los paneles fotovoltaicos se montan sobre el eje tubular
+        que gira sobre un eje este-oeste que sigue el movimiento aparente del
+        sol durante las horas del día. Cabe señalar que los seguidores de un
+        solo eje no se inclinan hacia el ecuador y, como resultado, su
+        eficiencia de seguimiento de potencia se reduce significativamente en
+        pleno invierno. Sin embargo, su productividad aumenta sustancialmente
+        durante las estaciones de primavera y verano, cuando la trayectoria del
+        sol está directamente sobre el cielo.
+      </p>  
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+        Los seguidores de un solo eje de eje horizontal, debido a la simplicidad 
+        de su mecanismo, se consideran muy confiables, fáciles de limpiar y mantener, 
+        y no están sujetos a auto sombreado.
+      </p>
+      <div class="flex justify-center">
+        <img
+          src="/SeguidorHorizontal.png"
+          alt="Seguidor Horizontal"
+          class="w-xl h-auto mb-6 rounded-md shadow-lg border-4 border-green-400"
+        />
+      </div>
+      <h3
+        class="text-2xl font-bold text-center mb-6 mt-4 text-lime-500 dark:text-lime-400"
+      >
+        Seguidores de un solo eje vertical
+      </h3>
+
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+        Los seguidores de eje vertical están construidos de manera que permitan
+        el movimiento pivotante de los paneles fotovoltaicos montados sobre un
+        eje vertical. Este tipo de seguidores tienen un uso limitado y suelen
+        instalarse en latitudes altas, donde la trayectoria solar recorre un
+        arco largo. Los paneles fotovoltaicos montados sobre un sistema de eje
+        vertical son adecuados para funcionar durante los largos días de verano
+        en los territorios del norte, donde hay días solares más prolongados.
+      </p>
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+        Estos seguidores son mejores en comparación con los seguidores horizontales 
+        en términos de producción de energía a mayores altitudes. Sin embargo, 
+        debido al eje de rotación, hay un aumento en las cargas de viento en el 
+        seguidor en comparación con las unidades orientadas horizontalmente. Esta es 
+        la razón por la que los seguidores de eje vertical deben estar provistos de 
+        estructuras de soporte con alta integridad estructural que sostengan el 
+        seguidor a lo largo de su eje de rotación. Esto hace que los seguidores solares 
+        de eje vertical sean costosos en comparación con sus contrapartes horizontales.
+      </p>
+      <div class="flex justify-center">
+        <img
+          src="/SeguidorVertical.png"
+          alt="Seguidor Vertical"
+          class="w-xl h-auto mb-6 rounded-md shadow-lg border-4 border-green-400"
+        />
+      </div> 
+      <h3
+        class="text-2xl font-bold text-center mb-6 mt-4 text-lime-500 dark:text-lime-400"
+      >
+        Seguidores Mono axiales inclinados
+      </h3>
+
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+       Todos los seguidores solares cuyo eje de rotación se considera que oscila entre 
+       los ejes de rotación verticales y horizontales con respecto al suelo se consideran 
+       seguidores mono axiales inclinados o tilted single-axis trackers (TSAT). Los 
+       ángulos en los que se inclinan estos seguidores suelen estar limitados para reducir 
+       el perfil del viento y el extremo elevado. En los TSAT, la superficie del módulo de 
+       los seguidores monoaxiales inclinados suele estar orientada en paralelo al eje de 
+       rotación, a medida que el módulo sigue el sol, este recorre un cilindro que es 
+       simétrico rotacionalmente a lo largo del eje de rotación.
+      </p>
+
+      <h3
+        class="text-2xl font-bold text-center mb-6 mt-4 text-lime-500 dark:text-lime-400"
+      >
+        Seguidores Polares (polar trackers)
+      </h3>
+
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+        Los rastreadores polares están diseñados para que uno de sus ejes gire
+        siguiendo el mismo patrón que la Tierra. Básicamente, los rastreadores
+        polares están alineados perpendicularmente a un disco eclíptico
+        imaginario que representa la trayectoria matemática aparente del sol.
+        Para mantener una precisión relativa, este tipo de rastreadores se
+        ajustan manualmente para compensar los cambios eclípticos estacionales
+        que se producen en otoño, invierno, primavera y verano. Los rastreadores
+        polares se utilizan normalmente en monturas de telescopios astronómicos,
+        en los que el seguimiento solar de alta precisión es un requisito
+        absoluto.
+      </p>
+
+      <div class="flex justify-center">
+        <img
+          src="/Seguidor Polar.png"
+          alt="Seguidor Polar"
+          class="w-xl h-auto mb-6 rounded-md shadow-lg border-4 border-green-400"
+        />
+      </div>
+
+      <h3
+        class="text-2xl font-bold text-center mb-6 mt-4 text-lime-500 dark:text-lime-400"
+      >
+        Seguidores solares de doble eje
+      </h3>
+
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+        El seguidor de doble eje tipo altitud-azimutal (AADAT) por sus siglas en
+        inglés Azimuth-altitude dual-axis tracker, puede soportar más peso que un 
+        seguidor de doble eje de inclinación y azimutal o, en inglés, Tip-tilt 
+        dual-axis tracker (TTDAT) debido a la forma en que se diseña y monta en el 
+        suelo, en el seguidor AADAT el peso de los paneles se distribuye a lo largo 
+        del eje primario el cual es un anillo fijado en el suelo mientras que en el
+        TTDAT se distribuye a lo largo de un único poste vertical, por lo tanto,
+        el AADAT puede soportar una cantidad de paneles mayor al tipo TTDAT.
+      </p>
+
+      <div class="flex justify-between">
+        <div class="flex flex-col items-center justify-center">
+          <h4 class="font-bold dark:text-gray-300 text-gray-700">AADAT</h4>
+          <img
+            src="/AADAT.jpg"
+            alt="AADAT"
+            class="w-xl h-auto mb-6 rounded-md shadow-lg border-4 border-green-400"
+          />
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <h4 class="font-bold dark:text-gray-300 text-gray-700">TTDAT</h4>
+          <img
+            src="/TTDAT.jpg"
+            alt="TTDAT"
+            class="w-xl h-auto mb-6 rounded-md shadow-lg border-4 border-green-400"
+          />
+        </div>
+      </div>
+
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+        Por lo general, la eficiencia del sistema de seguimiento de dos ejes en
+        comparación con el panel fotovoltaico fijo varía del 24,91 % al 82,12 %
+        según las condiciones climáticas. Uno de los principales factores que
+        afectan la eficiencia es el índice de claridad, que es un número
+        adimensional entre 0 y 1 que nos da una idea de la claridad de la
+        atmósfera.
+      </p>
+
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+        El sistema mecánico es principalmente la estructura del seguidor que
+        tiene en cuenta todas las posibles cargas aplicadas a la estructura. Los
+        enlaces se utilizan como soporte y mecanismo de accionamiento en ambos
+        tipos de seguidores de dos ejes, por lo que para asegurarnos de que
+        tenemos una estructura de larga vida útil que pueda soportar el peso de
+        los paneles y el viento, debemos calcular las cargas aplicadas en los
+        enlaces, así como en las juntas, para ubicar las juntas en la posición
+        correcta que dará como resultado tener la carga mínima sobre ellas. Esto
+        también nos ayudará a elegir los actuadores, ya que tenemos una variedad
+        de actuadores que podrían usarse en dicha aplicación.
+      </p>
+
+      <p class="text-lg text-gray-700 dark:text-gray-300 mb-4">
+        El sistema eléctrico, se puede dividir en tres partes principales: la
+        entrada, el controlador y el actuador. La entrada puede ser un sensor,
+        datos de un mapa solar o ambos. Los sensores funcionarán perfectamente
+        en días claros, pero en días nublados es mejor utilizar un mapa solar.
+        El uso de ambos tipos de entradas aumentará la eficiencia del seguidor.
+        Para los actuadores, se pueden utilizar varios tipos para mover los ejes
+        del seguidor; los accionamientos giratorios y los actuadores lineales
+        son los más comunes en los seguidores de doble eje. Podemos elegir el
+        actuador en función del tipo de seguidor de doble eje (tip-tilt o
+        azimutal-altitud) y para cuál de los dos ejes se utilizará (primario o
+        secundario). Los datos de la posición del sol, ya sea del sensor o del
+        mapa solar, se transmiten entonces al controlador, que impulsa los
+        actuadores para posicionar el seguidor perpendicular al sol.
+      </p>
+
+      <div class="flex justify-center">
+        <img
+          src="/dobleeje.jpg"
+          alt="Doble Eje"
+          class="w-xl h-auto mb-6 rounded-md shadow-lg border-4 border-green-400"
+        />
+      </div>
+
+      <div class="flex justify-center mt-6">
+        <a
+          href="/seguidores-solares"
+          class="bg-lime-500 text-white px-6 py-2 rounded-md hover:bg-lime-600 transition-all duration-300 dark:bg-lime-600 dark:hover:bg-lime-700"
+        >
+          Volver a Seguidores Solares
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

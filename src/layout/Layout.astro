@@ -10,7 +10,7 @@ const { title } = Astro.props;
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="/SolarTrackers/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
@@ -36,22 +36,22 @@ const { title } = Astro.props;
         class="bg-gradient-to-r from-lime-500 to-teal-500 text-white flex flex-col sm:flex-row justify-between items-center p-4 shadow-lg"
       >
         <a
-          href="/"
+          href="/SolarTrackers/"
           class="w-full sm:w-auto flex justify-center sm:justify-start mb-2 sm:mb-0"
         >
-          <img src="/logo.png" alt="Solar Trackers" class="h-12" />
+          <img src="/SolarTrackers/logo.png" alt="Solar Trackers" class="h-12" />
         </a>
         <div
           class="flex flex-row flex-wrap justify-center sm:justify-end items-center w-full space-x-4"
         >
           <a
-            href="/"
+            href="/SolarTrackers/"
             class={`hover:underline ${currentPath === "/" ? "font-bold text-yellow-300" : ""}`}
           >
             Inicio
           </a>
           <a
-            href="/seguidores-solares"
+            href="/SolarTrackers/seguidores-solares"
             class={`hover:underline ${
               currentPath === "/seguidores-solares/"
                 ? "font-bold text-yellow-300"
@@ -61,7 +61,7 @@ const { title } = Astro.props;
             Seguidores Solares
           </a>
           <a
-            href="/tipo-seguidores"
+            href="/SolarTrackers/tipo-seguidores"
             class={`hover:underline ${
               currentPath === "/tipo-seguidores/"
                 ? "font-bold text-yellow-300"
@@ -71,7 +71,7 @@ const { title } = Astro.props;
             Tipo de Seguidores
           </a>
           <a
-            href="/proveedores"
+            href="/SolarTrackers/proveedores"
             class={`hover:underline ${
               currentPath === "/proveedores/" ? "font-bold text-yellow-300" : ""
             }`}
@@ -79,7 +79,7 @@ const { title } = Astro.props;
             Proveedores
           </a>
           <a
-            href="/nosotros"
+            href="/SolarTrackers/nosotros"
             class={`hover:underline ${
               currentPath === "/nosotros/" ? "font-bold text-yellow-300" : ""
             }`}
@@ -87,7 +87,7 @@ const { title } = Astro.props;
             Nosotros
           </a>
           <a
-            href="/bibliografia"
+            href="/SolarTrackers/bibliografia"
             class={`hover:underline ${
               currentPath === "/bibliografia/" ? "font-bold text-yellow-300" : ""
             }`}
